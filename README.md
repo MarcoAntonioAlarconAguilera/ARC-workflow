@@ -1,6 +1,14 @@
 # ARC-workflow
 
-Described below is the workflow we performed for the interpretation of 384 Samples of Poultry Samples, provided to us by the Public Health Agency of Canada
+Described below is the workflow we performed to determine AMR genes from Enterococcus spp. isolates
+
+## Genomic Libary prep
+<Finish Later>
+
+## Next Gen Illumina Sequencing
+
+DNA sequencing was done through next gen Illumina sequencing. Therefore, 
+![Uploading image.png…]()
 
 ## eautils mcf + cutadapt:
 
