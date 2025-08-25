@@ -15,6 +15,8 @@ DNA sequencing was done through next gen Illumina sequencing. In summary:
 
 
 Dual Index
+<img width="6000" height="4200" alt="Illumina paired end summary" src="https://github.com/user-attachments/assets/ee13ebda-de43-4b3e-adae-4a4f3f5e80c3" />
+
 
 
 
