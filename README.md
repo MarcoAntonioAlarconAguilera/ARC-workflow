@@ -37,7 +37,7 @@ It is possible that these sequences are caused by leftover DNA fragments from th
 [Open the full table here(Markdown)](fastqc_top_overrepresented_sequences_table_pretrim.md)
 
 
-##Overall quality
+## Overall quality
 ![quality_pretrim](fastqc_per_base_sequence_quality_plot_pretrim.png)
      
 
