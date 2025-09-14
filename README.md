@@ -22,4 +22,4 @@ Dual Index
 
 ## eautils mcf + cutadapt:
 
-We had intially found problems in our FastQ sequence having too many primers known as
+It is standard practise to 
