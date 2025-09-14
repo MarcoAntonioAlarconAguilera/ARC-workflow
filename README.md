@@ -28,9 +28,9 @@ Although it is important to trim the reads to get a more accurate representation
 
 Note the number the percentage of sequences being at yellow/red zones for adapter content, indicating that adapters have not been trimmed  off yet (which is to be expected)
 
-### Over represented seequences:
+### Over represented sequences:
 
-![initalview](multiqc_over represented_sequences.png)
+![initalview](./multiqc_over_represented_sequences.png)
 This shows the most overrepresented sequences, typically being adapter sequences, or possible contamination from the sequencing / extraction process 
 
 [Open the full table here(Markdown)](fastqc_top_overrepresented_sequences_table_pretrim.md)
