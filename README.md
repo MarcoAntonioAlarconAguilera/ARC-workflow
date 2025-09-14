@@ -20,10 +20,15 @@ Dual Index
 ## Initial quality check
 Although it is important to trim the reads to get a more accurate representation of the final genome (removing low quality reads, removing adapters), it is also a good practise to check the quality of the reads prior to trimming, to have a baseline to compare the trims to.
 
+### percent adapter content
 
 <img src="./fastqc_adapter_content_plot.png"
      alt=" pretrim adapter content graph"
      width="900">
+
+     Note the number the percentage adapter content being at yellow/red zones, indicating that adapters have not been trimmed  off yet (which is to be expected)
+
+     
 
 
 ## eautils mcf + cutadapt:
