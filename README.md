@@ -29,7 +29,7 @@ Although it is important to trim the reads to get a more accurate representation
 Note the number the percentage of sequences being at yellow/red zones for adapter content, indicating that adapters have not been trimmed  off yet (which is to be expected)
 
 ### Adapter content detected:
-[Open full TSV (rendered)](fastqc_top_overrepresented_sequences_table_pretrim.tsv)
+[Open the full table(Markdown)]fastqc_top_overrepresented_sequences_table_pretrim.md
 
 
 
