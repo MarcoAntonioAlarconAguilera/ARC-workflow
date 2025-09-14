@@ -26,7 +26,7 @@ Although it is important to trim the reads to get a more accurate representation
      alt=" pretrim adapter content graph"
      width="900">
 
-     Note the number the percentage adapter content being at yellow/red zones, indicating that adapters have not been trimmed  off yet (which is to be expected)
+Note the number the percentage of sequences being at yellow/red zones for adapter content, indicating that adapters have not been trimmed  off yet (which is to be expected)
 
      
 
