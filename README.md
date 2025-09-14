@@ -17,7 +17,13 @@ DNA sequencing was done through next gen Illumina sequencing. In summary:
 Dual Index
 <img width="6000" height="4200" alt="Illumina paired end summary" src="https://github.com/user-attachments/assets/ee13ebda-de43-4b3e-adae-4a4f3f5e80c3" />
 
+## Initial quality check
+Although it is important to trim the reads to get a more accurate representation of the final genome (removing low quality reads, removing adapters), it is also a good practise to check the quality of the reads prior to trimming, to have a baseline to compare the trims to.
 
+
+<img src="./fastqc_adapter_content_plot.png"
+     alt=" pretrim adapter content graph"
+     width="900">
 
 
 ## eautils mcf + cutadapt:
