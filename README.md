@@ -51,7 +51,7 @@ It is standard practise to use trimming software to remove any vestiages from th
 
 We initially used cutadapt but found that some adapter sequences were still being detected by fastqc, we switched to eautils tool as part of the the mcf suite, and inputted a custum adapter list that was commonly used within the vetmed department. Critically, we manually inputted a new "adapter" that consisted of the poly-G sequence that was detected by multiqc. While a bit more manual than we preffered, we concluded that the poly-G tail is likely some sort of artifact that is not indicative of the actual genome, so removing as much of it as possible was critical to obtain the most accurate reads possible
 
-## second quality check
+### second quality check
 after the triming program was run, we ran a second fastqc / multiqc quality check to visualize the improvements:
 
 
