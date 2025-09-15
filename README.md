@@ -32,16 +32,26 @@ Note the number the percentage of sequences being at yellow/red zones for adapte
 
 ![initalview](./multiqc_over_represented_sequences.png)
 This shows the sequences that are represented in the reads more often than should be normal in typical library.
-It is possible that these sequences are caused by leftover DNA fragments from the sequencing step, highlighting the importance of a rigorous trimming procedure 
+It is possible that these sequences are caused by leftover DNA fragments from the sequencing step, highlighting the importance of a rigorous trimming procedure.
+Note the poly-G repeated sequence, which is repeated much more often than the other repeats. We presently have no clear explenation for this phenomenon, and we will attempt to remove some of these reads by considering the poly-G tail as a 
 
 [Open the full table here(Markdown)](fastqc_top_overrepresented_sequences_table_pretrim.md)
 
 
 ## Overall quality
 ![quality_pretrim](fastqc_per_base_sequence_quality_plot_pretrim.png)
+
+The pretrim quality score is very good, indicating that the detected bases are highly likely to be the real bases within the genomes that were sequenced. Note the dropoff in quality at larger sequence lenghts, this is caused by DNA primer losing effectiveness at longer lenghts, and can be alleviated by eliminating lower quality reads through trimming.
      
 
 
 ## eautils mcf + cutadapt:
 
-It is standard practise to 
+It is standard practise to use trimming software to remove any vestiages from the  sequencing procedure, such adapter sequences that are used as part of the sequencing procuedure. The software also removes lower quality (phred) reads, giving higher overall quality reads, and therefore more accurate data.
+
+We initially used cutadapt but found that some adapter sequences were still being detected by fastqc, we switched to eautils tool as part of the the mcf suite, and inputted a custum adapter list that was commonly used within the vetmed department. Critically, we manually inputted a new "adapter" that consisted of the poly-G sequence that was detected by multiqc. While a bit more manual than we preffered, we concluded that the poly-G tail is likely some sort of artifact that is not indicative of the actual genome, so removing as much of it as possible was critical to obtain the most accurate reads possible
+
+## second quality check
+after the triming program was run, we ran a second fastqc / multiqc quality check to visualize the improvements:
+
+
