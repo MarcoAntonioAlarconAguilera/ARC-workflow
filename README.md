@@ -55,3 +55,7 @@ We initially used cutadapt but found that some adapter sequences were still bein
 after the triming program was run, we ran a second fastqc / multiqc quality check to visualize the improvements:
 
 
+#### intial trim with cutadapt: no adapters given
+
+
+
