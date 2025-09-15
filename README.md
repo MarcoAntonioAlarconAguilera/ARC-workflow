@@ -59,3 +59,5 @@ after the triming program was run, we ran a second fastqc / multiqc quality chec
 
 
 
+
+
