@@ -72,7 +72,7 @@ Finally, multiqc was not able to detect a high amount of adapter sequences, sugg
 
 ### Over represented sequences:
 ![overrepresented_sequences_final.png](multiQC%20during%20%2B%20after%20trimming/overrepresented_sequences_final.png)
-The number of poly-G tails that were detected did decrease, but not by much. It is worth noting that fastqc is more sensitive, while triming programs are more selective.
+The number of poly-G tails that were detected did decrease, but not by much. It is worth noting that fastqc is more sensitive, while triming programs are more selective in what they chose to trim.
 The reason for this is simple, we want to try to avoid removing actual sequences, while quality checking however, we want to make sure we are detecting any possible errors.
 Furthermore, we though it highly unlikely that the poly-G tails would lead to the detection of AMR genes that are not there. While it may lead to less accurate genomes if they are incorporated into contigs, our focus is on antibiotic resistance genes, therefore we decided to proceed, knowing that some poly-G tails remain in our genomes.
 
