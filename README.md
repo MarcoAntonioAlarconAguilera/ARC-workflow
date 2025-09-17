@@ -26,9 +26,8 @@ Note the number the percentage of sequences being at yellow/red zones for adapte
 ![overepresented_sequence_initial.png](multiQC%20before%20trimming/over_represented_sequences_pretrim.png)
 This shows the sequences that are represented in the reads more often than should be normal in typical library.
 It is possible that these sequences are caused by leftover DNA fragments from the sequencing step, highlighting the importance of a rigorous trimming procedure.
-Note the poly-G repeated sequence, which is repeated much more often than the other repeats. We presently have no clear explenation for this phenomenon, and we will attempt to remove some of these reads by considering the poly-G tail as a 
+Note the poly-G repeated sequence, which is repeated much more often than the other repeats. We presently have no clear explenation for this phenomenon, and we will attempt to remove some of these reads by considering the poly-G tail as an adapter.
 
-![fastqc_per_base_sequence_quality_plot_pretrim.png](muliQC%20before%20trimming/fastqc_per_base_sequence_quality_plot_pretrim.png)
 
 
 ## Overall quality
